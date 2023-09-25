@@ -32,11 +32,21 @@ a {
 
 #app {
   padding: 0 10px 10px 10px;
-  margin-top: 20px;
   max-width: 1280vw;
 }
 #app h1 {
   margin-top: 20px;
+}
+#app picture {
+  max-width: 1280vw;
+  max-height: 400px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+#app picture img {
+  width: 100%;
 }
 
 nav {
@@ -52,18 +62,6 @@ nav a {
 }
 nav a:hover {
   color: red;
-}
-
-.whale-header {
-  max-width: 1280vw;
-  max-height: 400px;
-  overflow: hidden;
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-}
-.whale-header img {
-  width: 100%;
 }
 
 /*# sourceMappingURL=styles.css.map */
